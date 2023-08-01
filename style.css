@@ -1,0 +1,45 @@
+.header{
+    position: absolute;
+    top: 0px;
+}
+
+.myclass {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url("https://images.shiksha.com/mediadata/images/1554458336phpxJ6p3i.png");
+    height: calc(100vh - 56px);
+    background-size: cover;
+}
+
+.mybtn {
+    background-color: #751111;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    /* .mybtn{
+    background-color: aqua;
+   } */
+    .nav-item {
+        border: 1px solid #ffffff8c;
+        border-radius: 5px;
+        padding-left: 10px;
+        margin: 10px 0;
+
+    }
+
+}
+@media only screen and (max-width: 415px){
+    .maintxt{
+        font-size: 2.3rem;
+    }
+
+}
+@media only screen and (max-width: 384px){
+    .maintxt{
+        font-size: 2rem;
+    }
+
+}
