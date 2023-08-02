@@ -6,7 +6,7 @@
 //   unset($_SESSION['uname']);
 // }   
 
-    $con = mysqli_connect("localhost:3306", "root", "", "attendance_system") or
+    $con = mysqli_connect("localhost:8111", "root", "1234", "attendance_system") or
         die('Could not connect: ' . mysqli_error());
         
 ?>
